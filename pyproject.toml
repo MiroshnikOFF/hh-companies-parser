@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hh-companies-parser"
+version = "0.1.0"
+description = ""
+authors = ["miroshnikoff <taxi83080@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hh_companies_parser"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+psycopg2 = "^2.9.7"
+configparser = "^6.0.0"
+property = "^2.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
