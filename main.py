@@ -58,6 +58,7 @@ if __name__ == '__main__':
                 elif result == 4:
                     db_manager.get_vacancies_with_higher_salary()
                 elif result == 5:
-                    keyword = input("Введите ключевое слово для поиска: \n")
+                    keyword = input("Введите ключевое слово для поиска: ")
+                    print()
                     db_manager.get_vacancies_with_keyword(keyword)
 
