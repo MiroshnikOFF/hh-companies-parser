@@ -27,7 +27,7 @@ def create_params() -> dict:
         'page': 19,  # Количество страниц для выборки
         'per_page': 100,  # Количество работодателей на странице
         'only_with_vacancies': True,  # Только с активными вакансиями
-        'text': "it",  # Ключевое слово для поиска
+        'text': "it",  # Ключевое слово для поиска - it
         'area': area_id
     }
     return params
@@ -63,7 +63,7 @@ def get_employees_info(employers_id: list) -> list:
 
 def get_vacancies_by_employees(employees_id: list) -> list:
     """
-    Получает список вакансмий по id работодетелей
+    Получает список вакансий по id работодателей
     :param employees_id: список id работодателей
     :return: список вакансий
     """
