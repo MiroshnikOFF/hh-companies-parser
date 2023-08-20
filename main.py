@@ -1,7 +1,7 @@
-from utils import (create_params, get_employers_id, get_employees_info, get_vacancies_by_employees, create_database,
-                   create_tables, save_employees_to_database, save_vacancies_to_database)
-from config import config
-from db_manager import DBManager
+from src.utils import (create_params, get_employers_id, get_employees_info, get_vacancies_by_employees, create_database,
+                       create_tables, save_employees_to_database, save_vacancies_to_database)
+from src.config import config
+from src.db_manager import DBManager
 
 if __name__ == '__main__':
 

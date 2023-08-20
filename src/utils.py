@@ -2,7 +2,7 @@ import requests
 import psycopg2
 from psycopg2 import errors
 
-from area import get_country_id, get_region_id, get_city_id
+from src.area import get_country_id, get_region_id, get_city_id
 
 
 def create_params() -> dict:
